@@ -1,0 +1,550 @@
+{
+  "items": [
+    {
+      "category": "Look and Feel",
+      "tag": "base",
+      "name": "Resourcify",
+      "desc": "Allows you to browse all resource packs, data packs and shaders on Modrinth and CurseForge right from in Minecraft!",
+      "url": "https://modrinth.com/mod/resourcify",
+      "gamepath": "mods",
+      "images": [
+        "https://media.forgecdn.net/attachments/854/550/browse.png"
+      ],
+      "download_url": "https://cdn.modrinth.com/data/RLzHAoZe/versions/zdyGPkVi/Resourcify%20%281.21.8-fabric%29-1.7.4.jar"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "base",
+      "name": "Camerapture",
+      "desc": "Adds working cameras that can take in-game pictures or upload custom pictures which can be hung up on the wall to be viewed by everyone. Additionally, you can craft an album and collect your pictures.",
+      "url": "https://modrinth.com/mod/camerapture",
+      "gamepath": "mods",
+      "images": [
+        "https://cdn.modrinth.com/data/cached_images/ce06a0bffcbce2dba73ec0a084073ceb902e46f9.png",
+        "https://cdn.modrinth.com/data/cached_images/030a1ad3c8ff48e63a8d2ea4a0474fb651cfa4d0.png"
+      ],
+      "download_url": "https://drive.google.com/uc?export=download&id=1RTImtHRFlqOTthy846JqPuo9qJbfXSKV"
+    },
+        {
+      "category": "Look and Feel",
+      "tag": "base",
+      "name": "Disc Workshop",
+      "desc": "You can craft custom music discs and play them with the jukebox.",
+      "url": "https://modrinth.com/mod/camerapture",
+      "gamepath": "mods",
+      "images": [
+        "https://cdn.modrinth.com/data/cached_images/8ef7e66d396c43150321a1d05532c859e891321a.png",
+        "https://cdn.modrinth.com/data/cached_images/1bf578933a8dda998adff9403c2a81ffcd716f2f.png"
+      ],
+      "download_url": "https://drive.google.com/uc?export=download&id=10HSmyVFZ40VE6KnD4wc74uycqhNWGJYh"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "base",
+      "name": "Invariable Paintings",
+      "desc": "Turns paintings into rare collectibles which can be looted or traded.",
+      "url": "https://modrinth.com/mod/invariable-paintings",
+      "gamepath": "mods",
+      "images": [
+        "https://cdn.modrinth.com/data/KodbCbpa/images/7f9153745cbb5200415be5b8ea84c913bde64a26.jpeg"
+      ],
+      "download_url": "https://drive.google.com/uc?export=download&id=1lhiIj01j61S_Y6kjzZk5xsZHr30zz_pR"
+    },
+    {
+      "category": "Frameworks",
+      "tag": "base",
+      "name": "Architectury API",
+      "desc": null,
+      "url": "https://modrinth.com/mod/architectury-api",
+      "gamepath": "mods",
+      "images": [],
+      "download_url": "https://drive.google.com/uc?export=download&id=1wFfYznX-D73R-F-tYfg3rKklDuJKIihn"
+    },
+    {
+      "category": "Frameworks",
+      "tag": "base",
+      "name": "Cloth Config API",
+      "desc": null,
+      "url": "https://modrinth.com/mod/cloth-config",
+      "gamepath": "mods",
+      "images": [],
+      "download_url": "https://drive.google.com/uc?export=download&id=1iCAhg3rSgfan-aAlj2kwR32V74uKw-Ll"
+    },
+    {
+      "category": "Frameworks",
+      "tag": "base",
+      "name": "CreativeCore",
+      "desc": null,
+      "url": "https://modrinth.com/mod/creativecore",
+      "gamepath": "mods",
+      "images": [],
+      "download_url": "https://drive.google.com/uc?export=download&id=1ojOO8paXT6p3dqeqJpfCaOlk0tg5w7ia"
+    },
+    {
+      "category": "Frameworks",
+      "tag": "base",
+      "name": "Fabric API",
+      "desc": null,
+      "url": "https://modrinth.com/mod/fabric-api",
+      "gamepath": "mods",
+      "images": [],
+      "download_url": "https://drive.google.com/uc?export=download&id=12vkuQyf1qMs2mj-3HZF4eFV7Dn2JEOXw"
+    },
+    {
+      "category": "Frameworks",
+      "tag": "base",
+      "name": "Fabric Language Kotlin",
+      "desc": null,
+      "url": "https://modrinth.com/mod/fabric-language-kotlin",
+      "gamepath": "mods",
+      "images": [],
+      "download_url": "https://cdn.modrinth.com/data/Ha28R6CL/versions/i6MmXDwA/fabric-language-kotlin-1.13.6%2Bkotlin.2.2.20.jar"
+    },
+    {
+      "category": "Frameworks",
+      "tag": "base",
+      "name": "Polymer",
+      "desc": null,
+      "url": "https://modrinth.com/mod/polymer",
+      "gamepath": "mods",
+      "images": [],
+      "download_url": "https://drive.google.com/uc?export=download&id=1GbwOs2PjPa7sgMUH6yf_--x-KLQ3U7Hr"
+    },
+    {
+      "category": "Frameworks",
+      "tag": "base",
+      "name": "Sodium",
+      "desc": null,
+      "url": "https://modrinth.com/mod/sodium",
+      "gamepath": "mods",
+      "images": [],
+      "download_url": "https://drive.google.com/uc?export=download&id=1xBiGACWaTgjv42Dpz-xNhQr4_cSl8y_0"
+    },
+    {
+      "category": "Frameworks",
+      "tag": "base",
+      "name": "Sodium Extra",
+      "desc": null,
+      "url": "https://modrinth.com/mod/sodium-extra",
+      "gamepath": "mods",
+      "images": [],
+      "download_url": "https://drive.google.com/uc?export=download&id=1pqxracsG582I_PquutUS7eOwALL8KcG8"
+    },
+    {
+      "category": "Frameworks",
+      "tag": "base",
+      "name": "Variants-CIT",
+      "desc": null,
+      "url": "https://modrinth.com/mod/variants-cit",
+      "gamepath": "mods",
+      "images": [],
+      "download_url": "https://drive.google.com/uc?export=download&id=10nvqjiBG5JQ6L2FFm5hy_q9DiXVsY75Q"
+    },
+    {
+      "category": "Frameworks",
+      "tag": "base",
+      "name": "YetAnotherConfigLib",
+      "desc": null,
+      "url": "https://modrinth.com/mod/yacl",
+      "gamepath": "mods",
+      "images": [],
+      "download_url": "https://drive.google.com/uc?export=download&id=1HiOEaJHOtPK4e23GtH7kwiqV6cTPDNri"
+    },
+    {
+      "category": "Performance Tweaks",
+      "tag": "base",
+      "name": "Fast IP Ping",
+      "desc": "Disables reverse DNS lookups which increases the detection speed of servers represented only by IP-Address.",
+      "url": "https://modrinth.com/mod/fast-ip-ping",
+      "gamepath": "mods",
+      "images": [],
+      "download_url": "https://drive.google.com/uc?export=download&id=1Mi4GMfK2_N_Pku5l4Jkr3oEMPylJjFn6"
+    },
+    {
+      "category": "Performance Tweaks",
+      "tag": "base",
+      "name": "FerriteCore",
+      "desc": "Reduces the memory usage of Minecraft in a few different ways.",
+      "gamepath": "mods",
+      "url": "https://modrinth.com/mod/ferrite-core",
+      "images": [],
+      "download_url": "https://drive.google.com/uc?export=download&id=1Fa6N-kzOruurx14bcoQto10etmJzO8IV"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "optional",
+      "name": "AmbientSounds",
+      "desc": "Adds a rich ambience to the minecraft world.",
+      "url": "https://modrinth.com/mod/ambientsounds",
+      "gamepath": "mods",
+      "images": [],
+      "download_url": "https://drive.google.com/uc?export=download&id=1j8KNXNkpCx3QxRvg9MHeYPJJ0mrsRpPF"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "optional",
+      "name": "Appleskin",
+      "desc": "Adds various food-related HUD improvements.",
+      "url": "https://modrinth.com/mod/appleskin",
+      "gamepath": "mods",
+      "images": [],
+      "download_url": "https://drive.google.com/uc?export=download&id=1cOpIvGjZg1TuEkRi-qeqm7xBt19MwAgj"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "optional",
+      "name": "Better Leaves",
+      "desc": "Improves the appearance of leaves with high mod compatibility and performance!",
+      "url": "https://modrinth.com/resourcepack/better-leaves",
+      "gamepath": "resourcepacks",
+      "images": [
+        "https://cdn.modrinth.com/data/uvpymuxq/images/eb25ed9b51d7e1c6722629f1c7c14331732d9012.png"
+      ],
+      "download_url": "https://drive.google.com/uc?export=download&id=1tS2_AiU4YjNf_4xNChq4Kaz12dPhop-p"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "optional",
+      "name": "Bobby",
+      "desc": "Allows the player to set a greater render distance than the server's view-distance.",
+      "url": "https://modrinth.com/mod/bobby",
+      "gamepath": "mods",
+      "images": [],
+      "download_url": "https://drive.google.com/uc?export=download&id=16dyBMkvMS_AnVIa4OWbTvZkJPoCHddMk"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "optional",
+      "name": "Chat Heads",
+      "desc": "Adds player heads next to chat messages.",
+      "url": "https://modrinth.com/mod/chat-heads",
+      "gamepath": "mods",
+      "images": [
+        "https://media.forgecdn.net/attachments/312/218/chat-heads.png"
+      ],
+      "download_url": "https://drive.google.com/uc?export=download&id=1dgSTqP9ZkXePQcDvDPijJr_l5A0xPHBj"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "optional",
+      "name": "Clear Glass",
+      "desc": "Makes all types of glass connect smoothly without internal lines, creating a clean and seamless look.",
+      "url": "https://modrinth.com/resourcepack/clear-glass",
+      "gamepath": "resourcepacks",
+      "images": [
+        "https://cdn.modrinth.com/data/Mqy1I80f/images/a7cae76bd450c9ccd50bfdcc1840a79a435b5e91.png"
+      ],
+      "download_url": "https://drive.google.com/uc?export=download&id=1YDafLpNSIWmyovFVzNoMMtIVtU7w7Svd"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "optional",
+      "name": "Color Enchantment",
+      "desc": "Adds color-coded enchantment.",
+      "url": "https://modrinth.com/resourcepack/color-enchantment",
+      "gamepath": "resourcepacks",
+      "images": [
+        "https://cdn.modrinth.com/data/KRMaKg7x/images/dec5b055589c5e02410e5bbff2d70083a2b77e91.png"
+      ],
+      "download_url": "https://drive.google.com/uc?export=download&id=1LdmyZIYQvp5ytchZKAL4HgiMYRB-G9IV"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "optional",
+      "name": "Continuity",
+      "desc": "Allows resource packs to display efficient connected textures without OptiFine.",
+      "url": "https://modrinth.com/mod/continuity",
+      "gamepath": "mods",
+      "images": [],
+      "download_url": "https://drive.google.com/uc?export=download&id=1mqE31MZfiFB9ld2XO1mG7xOFgvDSCV94"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "optional",
+      "name": "Cool Rain",
+      "desc": "Creates ambient sounds for certain blocks during rain.",
+      "url": "https://modrinth.com/mod/coolrain",
+      "gamepath": "mods",
+      "images": [],
+      "download_url": "https://drive.google.com/uc?export=download&id=1Kh5NFjBcmEsMtqlbwjYw6qS8eNU5VnFo"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "optional",
+      "name": "Cubic Sun Moon",
+      "desc": "Recreates the Sun and the Moon in 3D and is compatible with mods that add sky features.",
+      "url": "https://modrinth.com/resourcepack/cubic-sun-moon",
+      "gamepath": "resourcepacks",
+      "images": [
+        "https://cdn.modrinth.com/data/g4bSYbrU/images/b5dc7afed80d399fa7ad1fef3336c1dda2f6ca68_350.webp"
+      ],
+      "download_url": "https://drive.google.com/uc?export=download&id=1stBZm9ZmQanCIplfdqQBIisW5KQeHahm"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "optional",
+      "name": "Dark Loading Screen",
+      "desc": "Makes the loading screen modifiable in-game.",
+      "url": "https://modrinth.com/mod/dark-loading-screen",
+      "gamepath": "mods",
+      "images": ["https://cdn-raw.modrinth.com/data/h3XWIuzM/images/b059b8c3ca7eca7d0747a9a12496f6634e4fb081.png"],
+      "download_url": "https://drive.google.com/uc?export=download&id=15XIleTaShXCla0YVoo9wDlJdoZ-6cOtU"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "optional",
+      "name": "Default Dark Mode",
+      "desc": "Displays the UI in dark mode.",
+      "url": "https://modrinth.com/resourcepack/default-dark-mode",
+      "gamepath": "resourcepacks",
+      "images": ["https://cdn.modrinth.com/data/6SLU7tS5/images/41c6f1fb1ede36c41c8497893b93b099dcb630b5_350.webp"],
+      "download_url": "https://drive.google.com/uc?export=download&id=1Mnv-AQvz_iF-pO96bnJYLwbmZZA25-s6"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "optional",
+      "name": "Enchantment Descriptions",
+      "desc": "Adds descriptions to tooltips that contain enchantments or status effects.",
+      "url": "https://modrinth.com/mod/idwtialsimmoedm",
+      "gamepath": "mods",
+      "images": [
+        "https://cdn.modrinth.com/data/UVtY3ZAC/images/db91fc869a83a648ba2db9c5138ca3c2f5d9d800.png"
+      ],
+      "download_url": "https://drive.google.com/uc?export=download&id=1Nm18KGJKs_kb8P89lRHZYtsq9Zj1uZjF"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "optional",
+      "name": "Enchantment Outline",
+      "desc": "Adds an outline to all enchantable tools.",
+      "url": "https://modrinth.com/resourcepack/glowing-glints",
+      "gamepath": "resourcepacks",
+      "images": [
+        "https://cdn.modrinth.com/data/jkvjEM8B/images/972059553bde2a0061fde9e18160555c757eb518.png"
+      ],
+      "download_url": "https://drive.google.com/uc?export=download&id=1zpn_O8MWumAGxnlv3rdI3oQutM60Yqok"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "optional",
+      "name": "Guillque's Enhanced Goat Horn",
+      "desc": "Adds context sensitive textures to Goat Horns, corresponding to the sound they make.",
+      "url": "https://modrinth.com/resourcepack/guillques-enhanced-goat-horn",
+      "gamepath": "resourcepacks",
+      "images": [
+        "https://cdn.modrinth.com/data/W8M9bTQD/images/b30ed38a97c6620ba6a5b2705bbc98fec31b0b84.png"
+      ],
+      "download_url": "https://drive.google.com/uc?export=download&id=14pBurZxOPtWhH4VhD6Qh2yLTiDbXpo8-"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "optional",
+      "name": "ImmersiveThunder",
+      "desc": "Adds realistic and dynamic thunder sounds based on the player's distance from the lightning strike.",
+      "url": "https://modrinth.com/mod/immersivethunder",
+      "gamepath": "mods",
+      "images": [],
+      "download_url": "https://drive.google.com/uc?export=download&id=1U_keV4O3s22zacB_fIvVB_o2lZLk04ol"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "optional",
+      "name": "Invariable Paintings: Collector's Stockbook",
+      "desc": "Adds a portable container for painting items.",
+      "url": "https://modrinth.com/mod/invarpaint-stockbook",
+      "gamepath": "mods",
+      "images": [
+        "https://cdn.modrinth.com/data/K0k9G0ui/images/9063a033bb7a15a9c99906465f908ad37675d071.jpeg"
+      ],
+      "download_url": "https://drive.google.com/uc?export=download&id=1qNV4OoD7H-qer0L4ETIxvmtlZO5HA3n8"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "optional",
+      "name": "Inventory Sorting",
+      "desc": "Adds a simple sort button to the inventory.",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/inventory-sorting",
+      "gamepath": "mods",
+      "images": [],
+      "download_url": "https://drive.google.com/uc?export=download&id=1GEoHVhiSXT20o5zd5JGc3aJ01U0ZJtYc"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "optional",
+      "name": "Leash Villager",
+      "desc": "You can take Villagers on a leash!",
+      "url": "https://modrinth.com/datapack/leash-villager",
+      "gamepath": "mods",
+      "images": [],
+      "download_url": "https://drive.google.com/uc?export=download&id=1KxErxFenD5k0oYWYXLhHItg918HJQJ10"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "optional",
+      "name": "Mod Menu",
+      "desc": "Adds a mod menu to view the list of mods you have installed.",
+      "url": "https://modrinth.com/mod/modmenu",
+      "gamepath": "mods",
+      "images": [],
+      "download_url": "https://drive.google.com/uc?export=download&id=1NjFi3DN2g2TGUl6BXeU9S9U-szPzvMZx"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "optional",
+      "name": "Only Hammers",
+      "desc": "Adds various type of hammers, that mine a 3x3 area or 1 block while sneaked.",
+      "url": "https://modrinth.com/mod/only-hammers",
+      "gamepath": "mods",
+      "images": [
+        "https://media.forgecdn.net/attachments/1176/914/2025-05-03_20-34-14-png.png"
+      ],
+      "download_url": "https://drive.google.com/uc?export=download&id=1uLF-cwppqQT0jNypiVAziuv1MjY7WreI"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "optional",
+      "name": "Particular",
+      "desc": "Enhances Minecraft's ambience with hand-crafted visual effects like fireflies, falling leaves, and waterfall cascades.",
+      "url": "https://modrinth.com/mod/particular",
+      "gamepath": "mods",
+      "images": [
+        "https://cdn.modrinth.com/data/B1CcCd9h/images/ae28225b35bd567be953dc90c13439c80f1637c9.gif"
+      ],
+      "download_url": "https://drive.google.com/uc?export=download&id=1ow_20h1iJU--AVyLODArqsRqK7jhIMj3"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "optional",
+      "name": "Portfolio",
+      "desc": "Adds in a large catalogue of 80+ paintings to the game!",
+      "url": "https://modrinth.com/datapack/portfolio",
+      "gamepath": "mods",
+      "images": [
+        "https://cdn.modrinth.com/data/2k6aLirX/images/8d8235c826cedce92d60fa755e9d67a438563cce_350.webp"
+      ],
+      "download_url": "https://drive.google.com/uc?export=download&id=1LUx6WNLd4NXtnrKDa47_MGOkoefzJM0e"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "optional",
+      "name": "Presence Footsteps",
+      "desc": "Adds new and more dynamic sounds for every block the player walks on. Fully customisable.",
+      "url": "https://modrinth.com/mod/presence-footsteps",
+      "gamepath": "mods",
+      "images": [],
+      "download_url": "https://drive.google.com/uc?export=download&id=1iJPiWFqdBmrcR1cVMyomhfQE5waCDchd"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "optional",
+      "name": "Scribble",
+      "desc": "Expertly edit your books with rich formatting options, page utilities and more!",
+      "url": "https://modrinth.com/mod/scribble",
+      "gamepath": "mods",
+      "images": ["https://cdn.modrinth.com/data/yXAvIk0x/images/af8166c5f05246bd7ab026c3b7e7f08037156f9e_350.webp"],
+      "download_url": "https://drive.google.com/uc?export=download&id=1Y1zsouYZ-OZnkH4zdrCQGP01ixVwp6IC"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "optional",
+      "name": "Slightly Improved Font",
+      "desc": "Makes the text more readible on higher resolutions",
+      "url": "https://modrinth.com/resourcepack/slightly-improved-font",
+      "gamepath": "resourcepacks",
+      "images": [],
+      "download_url": "https://drive.google.com/uc?export=download&id=1UNgGmI8fCQ8plEk-jKngU3W1yCsQaRRd"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "optional",
+      "name": "Sound Physics Remastered",
+      "desc": "A Minecraft mod that provides realistic sound attenuation, reverberation, and absorption through blocks.",
+      "url": "https://modrinth.com/mod/sound-physics-remastered",
+      "gamepath": "mods",
+      "images": [],
+      "download_url": "https://drive.google.com/uc?export=download&id=1475tku2i_TbPOD3yWU5lQQ8Facz1ipIO"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "optional",
+      "name": "Weskerson's Torches",
+      "desc": "Overhauls the torch textures while adding an animated fire and unique glow!",
+      "url": "https://modrinth.com/resourcepack/weskersons-torches",
+      "gamepath": "resourcepacks",
+      "images": [
+        "https://cdn.modrinth.com/data/kpLMzT6T/images/bf6fb59a556e51e76b095b8512c63cb1942faf5c.gif"
+      ],
+      "download_url": "https://drive.google.com/uc?export=download&id=1AOtKlQO81Isi9K12xmsiL7-I9ZlxBwrT"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "optional",
+      "name": "Xaero's Minimap",
+      "desc": "Displays a map of the nearby world terrain, players, mobs, entities in the corner of your screen and let's you set visual Waypoints.",
+      "url": "https://modrinth.com/mod/xaeros-minimap",
+      "gamepath": "mods",
+      "images": [
+        "https://i0.hdslb.com/bfs/article/e4b9e6cb00b32517d9cff866afa60ffe3ee3f00f.png@1192w.avif"
+      ],
+      "download_url": "https://drive.google.com/uc?export=download&id=13ycUFWVK-5soKVd7UWrVM6VJ6zyJB3NB"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "optional",
+      "name": "Zoomify",
+      "desc": "A configurable zoom mod.",
+      "url": "https://modrinth.com/mod/zoomify",
+      "gamepath": "mods",
+      "images": [
+        "https://raw.githubusercontent.com/isXander/Zoomify/1.19/screenshots/zoom-example.gif"
+      ],
+      "download_url": "https://drive.google.com/uc?export=download&id=1eTOJjWwmhq5nF-IeSlOghFUBQSxPIT2B"
+    },
+    {
+      "category": "Shaders",
+      "tag": "base",
+      "name": "Iris Shader",
+      "desc": "Open source shaders mod with high mod compatibility.",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/irisshaders",
+      "gamepath": "mods",
+      "images": [],
+      "download_url": "https://drive.google.com/uc?export=download&id=1B-0Zek7uBqCql5SNu4hTXG0pPF7KJvM0"
+    },
+    {
+      "category": "Shaders",
+      "tag": "optional",
+      "name": "Complementary Reimagined",
+      "desc": "Highly optimised shaders with enhanced visuals whilst keeping that vanilla feel.",
+      "url": "https://www.curseforge.com/minecraft/shaders/complementary-reimagined",
+      "gamepath": "shaderpacks",
+      "images": [
+        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fshaderpacks.b-cdn.net%2Fwp-content%2Fuploads%2F2022%2F06%2F2022-06-22_10.21.40.webp&f=1&ipt=48a8db3d2610368b83faba5f83345a38fe445891da4c0273026b76fbde9b753b"
+      ],
+      "download_url": "https://drive.google.com/uc?export=download&id=1m72_YAtiCj-7iV4OldZHprU7Uz3m6mqX"
+    },
+    {
+      "category": "Shaders",
+      "tag": "optional",
+      "name": "Complementary Unbound",
+      "desc": "Highly optimised shader with the goal of making the game look more realistic.",
+      "url": "https://www.curseforge.com/minecraft/shaders/complementary-unbound",
+      "gamepath": "shaderpacks",
+      "images": [
+        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.deltiasgaming.com%2F2025%2F04%2FComplimentary-Unbound-1536x864.jpg&f=1&ipt=facdadd3979b66d1dfa798303d6895d7a8cf3516146bd1b317005daab43e0788"
+      ],
+      "download_url": "https://drive.google.com/uc?export=download&id=1nKmVSmErgLIMEpHNza9H8uZmF0ucgWdk"
+    },
+    {
+      "category": "Shaders",
+      "tag": "optional",
+      "name": "Photon",
+      "desc": "Gameplay focused shader with bright and soft visuals.",
+      "url": "https://www.curseforge.com/minecraft/shaders/photon-shader",
+      "gamepath": "shaderpacks",
+      "images": [
+        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.forgecdn.net%2Fattachments%2F1264%2F5%2Fp3-webp.webp&f=1&ipt=cb18bcda78035f3ad9815cfc02be9ed04c443ba8edcef2326ce8bfa117dfed27"
+      ],
+      "download_url": "https://drive.google.com/uc?export=download&id=15tb6gWznWS4q0r6HpurG75ehTRzxCfvB"
+    }    
+  ]
+}

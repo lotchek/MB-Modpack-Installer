@@ -12,7 +12,7 @@
 
 ---
 
-### Using the Installer
+### Using the Installer (**NOT RECOMMENDED**)
 
 1. **Run** the installer  
 2. **Select** your `.minecraft` directory  
@@ -157,5 +157,6 @@ It's **highly advised** to include all in your game files.
 
   - [ ] Adding a instruction to build the binary from source
   
+
 
 

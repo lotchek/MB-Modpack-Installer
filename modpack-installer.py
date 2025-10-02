@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 # ============================================================
 # MemoryBound Modpack Installer
-# Version: 0.1.2
+# Version: 0.1.3
 # Author: Lotchek
 # E-Mail: xsoraaaaas@gmail.com
-# Date: 2025-09
+# Date: 2025-10
 # ------------------------------------------------------------
 # Simple modpack installer for Minecraft using Flet for the UI.
 # It will download and install all mods needed to join the server 
@@ -15,6 +15,8 @@
 #   - flet-desktop
 #   - requests
 #   - pillow
+#   - json
+#   - hashlib
 #
 # Usage:
 #   python flet run modpack-installer.py
@@ -38,15 +40,28 @@ from urllib.parse import unquote
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import time
 import threading
+import hashlib
+import json
+import requests
 
 DEFAULT_TARGET = os.path.abspath(".minecraft")
+REPO_URL = "https://raw.githubusercontent.com/lotchek/MB-Modpack-Installer/main/"
+
+# ---------- Resource Fetcher ----------
+def fetch_resources(relative_path: str) -> dict:
+    url = f"{REPO_URL}{relative_path}"
+    try:
+        response = requests.get(url, timeout=10)
+        response.raise_for_status()  
+        return response.json()
+    except requests.exceptions.RequestException as e:
+        print(f"Error fetching resource '{relative_path}': {e}")
+        raise
 
 # ---------- Theming ----------
 def create_theme() -> ft.Theme:
 
-    theme_path = resource_path("data/material-theme.json")
-    with open(theme_path, "r", encoding="utf-8") as f:
-        mat_theme = json.load(f)
+    mat_theme = fetch_resources("data/material-theme.json")
     scheme = mat_theme["schemes"]["dark"]
 
     theme = ft.Theme(
@@ -117,7 +132,6 @@ def set_theme(page: ft.Page, theme: ft.Theme):
     page.theme = theme
     page.update()
 
-
 # ---------- File Handlers ----------
 def ensure_dir(p: str):
     os.makedirs(p, exist_ok=True)
@@ -125,39 +139,39 @@ def ensure_dir(p: str):
 
 def unique_path(dirpath: str, filename: str) -> str:
     base, ext = os.path.splitext(filename)
-    candidate = os.path.join(dirpath, filename)
-    i = 1
-    while os.path.exists(candidate):
-        candidate = os.path.join(dirpath, f"{base} ({i}){ext}")
-        i += 1
-    return candidate
-
-
-def resource_path(relative_path):
-    if getattr(sys, "frozen", False) and hasattr(sys, "_MEIPASS"):
-        return os.path.join(getattr(sys, "_MEIPASS"), relative_path)
-    return os.path.join(os.path.abspath("."), relative_path)
+    counter = 1
+    out_path = os.path.join(dirpath, filename)
+    while os.path.exists(out_path):
+        out_path = os.path.join(dirpath, f"{base}_{counter}{ext}")
+        counter += 1
+    return out_path
 
 
 def get_filename(cd: str | None) -> str | None:
     if not cd:
         return None
-    cd = cd.strip()
-    for part in cd.split(";"):
-        part = part.strip()
-        if part.lower().startswith("filename*="):
-            val = part.split("=", 1)[1].strip().strip('"\'')
-            if "''" in val:
-                val = val.split("''", 1)[1]
-            return unquote(val)
-    for part in cd.split(";"):
-        part = part.strip()
-        if part.lower().startswith("filename="):
-            val = part.split("=", 1)[1].strip().strip('"\'')
-            return val or None
-    return None
+    
+    fname = re.findall('filename=(.+)', cd)
+    if len(fname) == 0:
+        fname = re.findall(r"filename\*=UTF-8''(.+)", cd)
+        if len(fname) == 0:
+            return None
+        return unquote(fname[0])
+        
+    return fname[0].strip('"')
 
-
+ # ----- Checksum verification -----
+def verify_checksum(file_path: str, expected_checksum: str) -> bool:
+    if not expected_checksum:
+        return True  
+        
+    sha256_hash = hashlib.sha256()
+    with open(file_path, "rb") as f:
+        for byte_block in iter(lambda: f.read(4096), b""):
+            sha256_hash.update(byte_block)
+        
+    return sha256_hash.hexdigest().lower() == expected_checksum.lower()
+    
 # ---------- Size & Progress fetchers ----------
 def format_size(n: float) -> str:
     if n is None:
@@ -185,7 +199,7 @@ def format_progress_line(name: str, downloaded: int, total: int, start_time: flo
     return f"{percent:5.1f}%  -  {size_str}  -  {format_size(speed)}/s  -  {remain_str}"
 
 # ---------- Download Handler----------
-def generic_download(url: str, target_dir: str, progress_callback=None, line_id=None) -> str:
+def generic_download(url: str, target_dir: str, progress_callback=None, line_id=None, checksum: str | None = None) -> str:
     ensure_dir(target_dir)
     r = requests.get(url, stream=True, timeout=(5, 60))
     r.raise_for_status()
@@ -211,9 +225,21 @@ def generic_download(url: str, target_dir: str, progress_callback=None, line_id=
     final_size = total_size if total_size > 0 else os.path.getsize(out_path)
     if progress_callback:
         progress_callback(f"100.00%  -  {format_size(final_size)}  -  {elapsed:.1f}s total", line_id)
+    
+    # Verify checksum
+    if progress_callback:
+        progress_callback(f"Verifying {fname}...", line_id)
+    
+    if not verify_checksum(out_path, checksum):
+        os.remove(out_path)
+        raise ValueError(f"Checksum mismatch for {fname}")
+
+    if progress_callback:
+        progress_callback("Download complete", line_id)
+        
     return out_path
 
-def gdrive_download(url: str, target_dir: str, progress_callback=None, line_id=None) -> str:
+def gdrive_download(url: str, target_dir: str, progress_callback=None, line_id=None, checksum: str | None = None) -> str:
     ensure_dir(target_dir)
     session = requests.Session()
     r = session.get(url, stream=True, timeout=(5, 60))
@@ -247,18 +273,29 @@ def gdrive_download(url: str, target_dir: str, progress_callback=None, line_id=N
     final_size = total_size if total_size > 0 else os.path.getsize(out_path)
     if progress_callback:
         progress_callback(f"100.00%  -  {format_size(final_size)}  -  {elapsed:.1f}s total", line_id)
+    
+    # Verify checksum
+    if progress_callback:
+        progress_callback(f"Verifying {fname}...", line_id)
+        
+    if not verify_checksum(out_path, checksum):
+        os.remove(out_path)
+        raise ValueError(f"Checksum mismatch for {fname}")
+
+    if progress_callback:
+        progress_callback("Download complete", line_id)
+        
     return out_path
 
-def download_method(url: str, target_dir: str, progress_callback=None, line_id=None) -> str:
+def download_method(url: str, target_dir: str, progress_callback=None, line_id=None, checksum: str | None = None) -> str:
     if "drive.google.com" in url:
-        return gdrive_download(url, target_dir, progress_callback, line_id)
+        return gdrive_download(url, target_dir, progress_callback, line_id, checksum)
     else:
-        return generic_download(url, target_dir, progress_callback, line_id)
+        return generic_download(url, target_dir, progress_callback, line_id, checksum)
 
 # ---------- Package parser ----------
-def load_manifest(path: str) -> dict:
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+def load_manifest() -> dict:
+    return fetch_resources("data/packages.json")
 
 # ---------- UI ----------
 class InstallerApp:
@@ -326,10 +363,10 @@ class InstallerApp:
         btn_row = ft.Row([self.select_all_btn, self.progress, self.install_btn],
                          alignment=ft.MainAxisAlignment.SPACE_BETWEEN)
 
-        # Layout
+        # ----- Main layout -----
         page.add(ft.Column([path_row, self.tabs, btn_row], expand=True, spacing=15))
 
-        # Start updater thread
+        # ----- Updater thread -----
         self.page.run_thread(self._ui_updater)
     
     # ----- Window event handler -----
@@ -351,11 +388,10 @@ class InstallerApp:
                 print(f"Error shutting down executor: {e}")
         
         try:
-            self.page.window.destroy()
-            print("Window destroyed")
+            if self.page and self.page.window.visible:
+                self.page.window.destroy() 
         except Exception as e:
-            print(f"Error destroying window: {e}")
-        time.sleep(0.1)
+            print(f"Error during shutdown: {e}")
         
         print("Forcing application exit")
         os._exit(0)
@@ -476,7 +512,6 @@ class InstallerApp:
         )
 
     # ----- Mods Tab-----
-
     def build_category_tab(self, category: str, include_optional: bool = True):
         base_items = [it for it in self.manifest["items"] if it.get("tag") == "base" and it.get("category") == category]
         opt_items = [it for it in self.manifest["items"] if it.get("tag") == "optional" and it.get("category") == category]
@@ -599,7 +634,8 @@ class InstallerApp:
 
                 def worker(item=it, lid=line_id, href=url, gdir=game_dir):
                     try:
-                        download_method(href, gdir, progress_callback, lid)
+                        checksum = item.get("hash")
+                        download_method(href, gdir, progress_callback, lid, checksum) 
                     except Exception as exc:
                         with self._status_lock:
                             self.status_data[lid] = f"Error  -  {exc}"
@@ -645,18 +681,14 @@ class InstallerApp:
         ))
 
         self.page.update()
-
-
+    
 # ---------- Flet instance ----------
 def main(page: ft.Page):
     try:
         page.window.prevent_close = True
-        manifest_path = resource_path("data/packages.json")
-        if len(sys.argv) > 1:
-            manifest_path = sys.argv[1]
         theme = create_theme()
         set_theme(page, theme)
-        manifest = load_manifest(manifest_path)
+        manifest = load_manifest() 
         InstallerApp(page, manifest, theme)
         
     except Exception as e:

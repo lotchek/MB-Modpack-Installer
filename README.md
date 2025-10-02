@@ -4,7 +4,7 @@
 
 ### Manual Installation / Direct Download
 
-1. **Download** either the [base-pack]("https://drive.proton.me/urls/36CAFJYAXG#eXxhTnkw546D") or the [full pack]("https://drive.proton.me/urls/ANNWDJWQE8#TmqXJqw8V9NS")
+1. **Download** either the [base-pack](https://drive.proton.me/urls/36CAFJYAXG#eXxhTnkw546D) or the [full pack](https://drive.proton.me/urls/ANNWDJWQE8#TmqXJqw8V9NS)
 2. **Extract** its content into your `.minecraft` directory  
 3. **Have fun!**
 
@@ -157,3 +157,4 @@ It's **highly advised** to include all in your game files.
 
   - [ ] Adding a instruction to build the binary from source
   
+

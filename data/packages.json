@@ -3,18 +3,6 @@
     {
       "category": "Look and Feel",
       "tag": "base",
-      "name": "Resourcify",
-      "desc": "Allows you to browse all resource packs, data packs and shaders on Modrinth and CurseForge right from in Minecraft!",
-      "url": "https://modrinth.com/mod/resourcify",
-      "gamepath": "mods",
-      "images": [
-        "https://media.forgecdn.net/attachments/854/550/browse.png"
-      ],
-      "download_url": "https://cdn.modrinth.com/data/RLzHAoZe/versions/zdyGPkVi/Resourcify%20%281.21.8-fabric%29-1.7.4.jar"
-    },
-    {
-      "category": "Look and Feel",
-      "tag": "base",
       "name": "Camerapture",
       "desc": "Adds working cameras that can take in-game pictures or upload custom pictures which can be hung up on the wall to be viewed by everyone. Additionally, you can craft an album and collect your pictures.",
       "url": "https://modrinth.com/mod/camerapture",
@@ -23,9 +11,10 @@
         "https://cdn.modrinth.com/data/cached_images/ce06a0bffcbce2dba73ec0a084073ceb902e46f9.png",
         "https://cdn.modrinth.com/data/cached_images/030a1ad3c8ff48e63a8d2ea4a0474fb651cfa4d0.png"
       ],
-      "download_url": "https://drive.google.com/uc?export=download&id=1RTImtHRFlqOTthy846JqPuo9qJbfXSKV"
+      "download_url": "https://drive.google.com/uc?export=download&id=1RTImtHRFlqOTthy846JqPuo9qJbfXSKV",
+      "hash": "830B19C922F1AF91810F1E46873D6A970501157EE932CC1E2BAD6CADE0C6B8D7"
     },
-        {
+    {
       "category": "Look and Feel",
       "tag": "base",
       "name": "Disc Workshop",
@@ -36,7 +25,8 @@
         "https://cdn.modrinth.com/data/cached_images/8ef7e66d396c43150321a1d05532c859e891321a.png",
         "https://cdn.modrinth.com/data/cached_images/1bf578933a8dda998adff9403c2a81ffcd716f2f.png"
       ],
-      "download_url": "https://drive.google.com/uc?export=download&id=10HSmyVFZ40VE6KnD4wc74uycqhNWGJYh"
+      "download_url": "https://drive.google.com/uc?export=download&id=10HSmyVFZ40VE6KnD4wc74uycqhNWGJYh",
+      "hash": "6E838F893F3EC33D4A4ABF663A3141AE79E719B4349317B4BA1D1EC41153CA80"
     },
     {
       "category": "Look and Feel",
@@ -48,7 +38,71 @@
       "images": [
         "https://cdn.modrinth.com/data/KodbCbpa/images/7f9153745cbb5200415be5b8ea84c913bde64a26.jpeg"
       ],
-      "download_url": "https://drive.google.com/uc?export=download&id=1lhiIj01j61S_Y6kjzZk5xsZHr30zz_pR"
+      "download_url": "https://drive.google.com/uc?export=download&id=1lhiIj01j61S_Y6kjzZk5xsZHr30zz_pR",
+      "hash": "A1F7148238FAC60EA5FD272D0711022453EDCEABFD48CD7A58EECCD86E6FBF56"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "base",
+      "name": "Mod Menu",
+      "desc": "Adds a mod menu to view the list of mods you have installed.",
+      "url": "https://modrinth.com/mod/modmenu",
+      "gamepath": "mods",
+      "images": [],
+      "download_url": "https://drive.google.com/uc?export=download&id=1NjFi3DN2g2TGUl6BXeU9S9U-szPzvMZx",
+      "hash": "5A6459C2760E35A0086C813FAFE3FE61A964A5FDDD94A331B2284A502BA1792F"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "base",
+      "name": "Only Hammers",
+      "desc": "Adds various type of hammers, that mine a 3x3 area or 1 block while sneaked.",
+      "url": "https://modrinth.com/mod/only-hammers",
+      "gamepath": "mods",
+      "images": [
+        "https://media.forgecdn.net/attachments/1176/914/2025-05-03_20-34-14-png.png"
+      ],
+      "download_url": "https://drive.google.com/uc?export=download&id=1uLF-cwppqQT0jNypiVAziuv1MjY7WreI",
+      "hash": "412D34D750DC6D895C77BC7E6A8BA9EA3DBF5EA372C41A88617B94BC3DCF5965"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "base",
+      "name": "Portfolio",
+      "desc": "Adds in a large catalogue of 80+ paintings to the game!",
+      "url": "https://modrinth.com/datapack/portfolio",
+      "gamepath": "mods",
+      "images": [
+        "https://cdn.modrinth.com/data/2k6aLirX/images/8d8235c826cedce92d60fa755e9d67a438563cce_350.webp"
+      ],
+      "download_url": "https://drive.google.com/uc?export=download&id=1LUx6WNLd4NXtnrKDa47_MGOkoefzJM0e",
+      "hash": "1EB69DFFEEE7C88156F115354B3C74D60009CF6CA81CAFCCB14410A44A6D3B40"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "base",
+      "name": "Resourcify",
+      "desc": "Allows you to browse all resource packs, data packs and shaders on Modrinth and CurseForge right from in Minecraft!",
+      "url": "https://modrinth.com/mod/resourcify",
+      "gamepath": "mods",
+      "images": [
+        "https://media.forgecdn.net/attachments/854/550/browse.png"
+      ],
+      "download_url": "https://cdn.modrinth.com/data/RLzHAoZe/versions/zdyGPkVi/Resourcify%20%281.21.8-fabric%29-1.7.4.jar",
+      "hash": "939A676238D8A39CDE5722491591062C771E0725DF7F61A00F922E9CDB1938CE"
+    },
+    {
+      "category": "Look and Feel",
+      "tag": "base",
+      "name": "Xaero's Minimap",
+      "desc": "Displays a map of the nearby world terrain, players, mobs, entities in the corner of your screen and let's you set visual Waypoints.",
+      "url": "https://modrinth.com/mod/xaeros-minimap",
+      "gamepath": "mods",
+      "images": [
+        "https://i0.hdslb.com/bfs/article/e4b9e6cb00b32517d9cff866afa60ffe3ee3f00f.png@1192w.avif"
+      ],
+      "download_url": "https://drive.google.com/uc?export=download&id=13ycUFWVK-5soKVd7UWrVM6VJ6zyJB3NB",
+      "hash": "B784FF822F71E6C91CA5360E31C441FC25707BB2DE434DE745E2E133EE49F614"
     },
     {
       "category": "Frameworks",
@@ -58,7 +112,8 @@
       "url": "https://modrinth.com/mod/architectury-api",
       "gamepath": "mods",
       "images": [],
-      "download_url": "https://drive.google.com/uc?export=download&id=1wFfYznX-D73R-F-tYfg3rKklDuJKIihn"
+      "download_url": "https://drive.google.com/uc?export=download&id=1wFfYznX-D73R-F-tYfg3rKklDuJKIihn",
+      "hash": "B5D051F8EFFE8F9476F9375E11E48DFAFB821791435B8FE368869900397F05D5"
     },
     {
       "category": "Frameworks",
@@ -68,7 +123,8 @@
       "url": "https://modrinth.com/mod/cloth-config",
       "gamepath": "mods",
       "images": [],
-      "download_url": "https://drive.google.com/uc?export=download&id=1iCAhg3rSgfan-aAlj2kwR32V74uKw-Ll"
+      "download_url": "https://drive.google.com/uc?export=download&id=1iCAhg3rSgfan-aAlj2kwR32V74uKw-Ll",
+      "hash": "D8A6DCA9D0DAD1FE44622A3C6A0348641934E3943C8D425A26F112BCE6DEBFA2"
     },
     {
       "category": "Frameworks",
@@ -78,7 +134,8 @@
       "url": "https://modrinth.com/mod/creativecore",
       "gamepath": "mods",
       "images": [],
-      "download_url": "https://drive.google.com/uc?export=download&id=1ojOO8paXT6p3dqeqJpfCaOlk0tg5w7ia"
+      "download_url": "https://drive.google.com/uc?export=download&id=1ojOO8paXT6p3dqeqJpfCaOlk0tg5w7ia",
+      "hash": "417C9E7887576EF4CDF86B1847E36247307A44C2F9ACE7EA360A7BB131032D98"
     },
     {
       "category": "Frameworks",
@@ -88,7 +145,8 @@
       "url": "https://modrinth.com/mod/fabric-api",
       "gamepath": "mods",
       "images": [],
-      "download_url": "https://drive.google.com/uc?export=download&id=12vkuQyf1qMs2mj-3HZF4eFV7Dn2JEOXw"
+      "download_url": "https://drive.google.com/uc?export=download&id=12vkuQyf1qMs2mj-3HZF4eFV7Dn2JEOXw",
+      "hash": "686F171125E814DC580BA6A61F61ECDE851A981730E43B708F0773D62356C099"
     },
     {
       "category": "Frameworks",
@@ -98,7 +156,8 @@
       "url": "https://modrinth.com/mod/fabric-language-kotlin",
       "gamepath": "mods",
       "images": [],
-      "download_url": "https://cdn.modrinth.com/data/Ha28R6CL/versions/i6MmXDwA/fabric-language-kotlin-1.13.6%2Bkotlin.2.2.20.jar"
+      "download_url": "https://cdn.modrinth.com/data/Ha28R6CL/versions/i6MmXDwA/fabric-language-kotlin-1.13.6%2Bkotlin.2.2.20.jar",
+      "hash": "62C2773380FAE0CE5CD01E6CFBDC34F6A2D42FD0734E5996E261BF7D8BF12CE3"
     },
     {
       "category": "Frameworks",
@@ -108,7 +167,8 @@
       "url": "https://modrinth.com/mod/polymer",
       "gamepath": "mods",
       "images": [],
-      "download_url": "https://drive.google.com/uc?export=download&id=1GbwOs2PjPa7sgMUH6yf_--x-KLQ3U7Hr"
+      "download_url": "https://drive.google.com/uc?export=download&id=1GbwOs2PjPa7sgMUH6yf_--x-KLQ3U7Hr",
+      "hash": "89DF5B4BC7C571E373CCC594793EC7EA6318A6EE0A73AA4EC9E964D00B98A1B8"
     },
     {
       "category": "Frameworks",
@@ -118,7 +178,8 @@
       "url": "https://modrinth.com/mod/sodium",
       "gamepath": "mods",
       "images": [],
-      "download_url": "https://drive.google.com/uc?export=download&id=1xBiGACWaTgjv42Dpz-xNhQr4_cSl8y_0"
+      "download_url": "https://drive.google.com/uc?export=download&id=1xBiGACWaTgjv42Dpz-xNhQr4_cSl8y_0",
+      "hash": "2E67812980688BF33447052C9DDFB820D07967BB3A3443F7865687FA0869118D"
     },
     {
       "category": "Frameworks",
@@ -128,7 +189,8 @@
       "url": "https://modrinth.com/mod/sodium-extra",
       "gamepath": "mods",
       "images": [],
-      "download_url": "https://drive.google.com/uc?export=download&id=1pqxracsG582I_PquutUS7eOwALL8KcG8"
+      "download_url": "https://drive.google.com/uc?export=download&id=1pqxracsG582I_PquutUS7eOwALL8KcG8",
+      "hash": "29EB93A5B402D3148577A6C31E05CABC9C92B12696ED342FD860E8D19C82FAB1"
     },
     {
       "category": "Frameworks",
@@ -138,7 +200,8 @@
       "url": "https://modrinth.com/mod/variants-cit",
       "gamepath": "mods",
       "images": [],
-      "download_url": "https://drive.google.com/uc?export=download&id=10nvqjiBG5JQ6L2FFm5hy_q9DiXVsY75Q"
+      "download_url": "https://drive.google.com/uc?export=download&id=10nvqjiBG5JQ6L2FFm5hy_q9DiXVsY75Q",
+      "hash": "588D15F90A8B6466B4D98558ED91F863816A16EE87AC6C8F04DFC3B1461BEB50"
     },
     {
       "category": "Frameworks",
@@ -148,7 +211,8 @@
       "url": "https://modrinth.com/mod/yacl",
       "gamepath": "mods",
       "images": [],
-      "download_url": "https://drive.google.com/uc?export=download&id=1HiOEaJHOtPK4e23GtH7kwiqV6cTPDNri"
+      "download_url": "https://drive.google.com/uc?export=download&id=1HiOEaJHOtPK4e23GtH7kwiqV6cTPDNri",
+      "hash": "7D71FBEE0E2CA0F38A475309D23C9D084CD68EDD4BE6544EECDB5AEC1F36D1ED"
     },
     {
       "category": "Performance Tweaks",
@@ -158,7 +222,8 @@
       "url": "https://modrinth.com/mod/fast-ip-ping",
       "gamepath": "mods",
       "images": [],
-      "download_url": "https://drive.google.com/uc?export=download&id=1Mi4GMfK2_N_Pku5l4Jkr3oEMPylJjFn6"
+      "download_url": "https://drive.google.com/uc?export=download&id=1Mi4GMfK2_N_Pku5l4Jkr3oEMPylJjFn6",
+      "hash": "7F80F9E5FC67696063073C6F1969B41C802831B526F2598997252FC308E4FA65"
     },
     {
       "category": "Performance Tweaks",
@@ -168,7 +233,8 @@
       "gamepath": "mods",
       "url": "https://modrinth.com/mod/ferrite-core",
       "images": [],
-      "download_url": "https://drive.google.com/uc?export=download&id=1Fa6N-kzOruurx14bcoQto10etmJzO8IV"
+      "download_url": "https://drive.google.com/uc?export=download&id=1Fa6N-kzOruurx14bcoQto10etmJzO8IV",
+      "hash": "2B90BF00C2A5808C3C539712A55691191F8716D5BFA6EEFABA35E9C4C5A28EEA"
     },
     {
       "category": "Look and Feel",
@@ -178,7 +244,8 @@
       "url": "https://modrinth.com/mod/ambientsounds",
       "gamepath": "mods",
       "images": [],
-      "download_url": "https://drive.google.com/uc?export=download&id=1j8KNXNkpCx3QxRvg9MHeYPJJ0mrsRpPF"
+      "download_url": "https://drive.google.com/uc?export=download&id=1j8KNXNkpCx3QxRvg9MHeYPJJ0mrsRpPF",
+      "hash": "03E48B90303897972DCA6D333B80C8172532F5103E9B0CDB67BE74C8431F17FB"
     },
     {
       "category": "Look and Feel",
@@ -188,7 +255,8 @@
       "url": "https://modrinth.com/mod/appleskin",
       "gamepath": "mods",
       "images": [],
-      "download_url": "https://drive.google.com/uc?export=download&id=1cOpIvGjZg1TuEkRi-qeqm7xBt19MwAgj"
+      "download_url": "https://drive.google.com/uc?export=download&id=1cOpIvGjZg1TuEkRi-qeqm7xBt19MwAgj",
+      "hash": "B82ABE586851BA6DBB9BCD4D9270FBDDCD519E855EA7BFFE933ED45AB5158E21"
     },
     {
       "category": "Look and Feel",
@@ -200,7 +268,8 @@
       "images": [
         "https://cdn.modrinth.com/data/uvpymuxq/images/eb25ed9b51d7e1c6722629f1c7c14331732d9012.png"
       ],
-      "download_url": "https://drive.google.com/uc?export=download&id=1tS2_AiU4YjNf_4xNChq4Kaz12dPhop-p"
+      "download_url": "https://drive.google.com/uc?export=download&id=1tS2_AiU4YjNf_4xNChq4Kaz12dPhop-p",
+      "hash": "9DD681BD56F5ABED4B70656C14EB226D44ECCAA7471F2F1F6736E9C57F445EE5"
     },
     {
       "category": "Look and Feel",
@@ -210,7 +279,8 @@
       "url": "https://modrinth.com/mod/bobby",
       "gamepath": "mods",
       "images": [],
-      "download_url": "https://drive.google.com/uc?export=download&id=16dyBMkvMS_AnVIa4OWbTvZkJPoCHddMk"
+      "download_url": "https://drive.google.com/uc?export=download&id=16dyBMkvMS_AnVIa4OWbTvZkJPoCHddMk",
+      "hash": "FA83AB051ADA09F113011D88DE15A3F5BF60585D1DB3B4EA76C47316F8667AAE"
     },
     {
       "category": "Look and Feel",
@@ -222,7 +292,8 @@
       "images": [
         "https://media.forgecdn.net/attachments/312/218/chat-heads.png"
       ],
-      "download_url": "https://drive.google.com/uc?export=download&id=1dgSTqP9ZkXePQcDvDPijJr_l5A0xPHBj"
+      "download_url": "https://drive.google.com/uc?export=download&id=1dgSTqP9ZkXePQcDvDPijJr_l5A0xPHBj",
+      "hash": "72A2E5DEED5614369C426DBEA8135B494FF473F7C4A1C4077D94A287E452466D"
     },
     {
       "category": "Look and Feel",
@@ -234,7 +305,8 @@
       "images": [
         "https://cdn.modrinth.com/data/Mqy1I80f/images/a7cae76bd450c9ccd50bfdcc1840a79a435b5e91.png"
       ],
-      "download_url": "https://drive.google.com/uc?export=download&id=1YDafLpNSIWmyovFVzNoMMtIVtU7w7Svd"
+      "download_url": "https://drive.google.com/uc?export=download&id=1YDafLpNSIWmyovFVzNoMMtIVtU7w7Svd",
+      "hash": "D23C482AB1AE1CCB4A4762C44B49C38E937BD496FC725AFCE445E865FF509596"
     },
     {
       "category": "Look and Feel",
@@ -246,7 +318,8 @@
       "images": [
         "https://cdn.modrinth.com/data/KRMaKg7x/images/dec5b055589c5e02410e5bbff2d70083a2b77e91.png"
       ],
-      "download_url": "https://drive.google.com/uc?export=download&id=1LdmyZIYQvp5ytchZKAL4HgiMYRB-G9IV"
+      "download_url": "https://drive.google.com/uc?export=download&id=1LdmyZIYQvp5ytchZKAL4HgiMYRB-G9IV",
+      "hash": "6F997458BB1ABE321B992195F074F435F8A9D3795825839A0147E0D47AB370D9"
     },
     {
       "category": "Look and Feel",
@@ -256,7 +329,8 @@
       "url": "https://modrinth.com/mod/continuity",
       "gamepath": "mods",
       "images": [],
-      "download_url": "https://drive.google.com/uc?export=download&id=1mqE31MZfiFB9ld2XO1mG7xOFgvDSCV94"
+      "download_url": "https://drive.google.com/uc?export=download&id=1mqE31MZfiFB9ld2XO1mG7xOFgvDSCV94",
+      "hash": "80B03195BBFDC805A3280D6B6354E3ECDEB6A3C936FD2928A71FAC8BEE619708"
     },
     {
       "category": "Look and Feel",
@@ -266,7 +340,8 @@
       "url": "https://modrinth.com/mod/coolrain",
       "gamepath": "mods",
       "images": [],
-      "download_url": "https://drive.google.com/uc?export=download&id=1Kh5NFjBcmEsMtqlbwjYw6qS8eNU5VnFo"
+      "download_url": "https://drive.google.com/uc?export=download&id=1Kh5NFjBcmEsMtqlbwjYw6qS8eNU5VnFo",
+      "hash": "5B316290F75AA732CD897BFC7E8557914DB85FC980B9AE14D7DD6BCA76CD6783"
     },
     {
       "category": "Look and Feel",
@@ -278,7 +353,8 @@
       "images": [
         "https://cdn.modrinth.com/data/g4bSYbrU/images/b5dc7afed80d399fa7ad1fef3336c1dda2f6ca68_350.webp"
       ],
-      "download_url": "https://drive.google.com/uc?export=download&id=1stBZm9ZmQanCIplfdqQBIisW5KQeHahm"
+      "download_url": "https://drive.google.com/uc?export=download&id=1stBZm9ZmQanCIplfdqQBIisW5KQeHahm",
+      "hash": "90EA899FCF8DB75FA53B7B14D84D3D477ECFD621BD8A23F227DE95EE7CFC85A6"
     },
     {
       "category": "Look and Feel",
@@ -287,8 +363,11 @@
       "desc": "Makes the loading screen modifiable in-game.",
       "url": "https://modrinth.com/mod/dark-loading-screen",
       "gamepath": "mods",
-      "images": ["https://cdn-raw.modrinth.com/data/h3XWIuzM/images/b059b8c3ca7eca7d0747a9a12496f6634e4fb081.png"],
-      "download_url": "https://drive.google.com/uc?export=download&id=15XIleTaShXCla0YVoo9wDlJdoZ-6cOtU"
+      "images": [
+        "https://cdn-raw.modrinth.com/data/h3XWIuzM/images/b059b8c3ca7eca7d0747a9a12496f6634e4fb081.png"
+      ],
+      "download_url": "https://drive.google.com/uc?export=download&id=15XIleTaShXCla0YVoo9wDlJdoZ-6cOtU",
+      "hash": "5170CD7039E57873242BD0CE6531FA384E61EC70554A2DC395D477E0AAA556BA"
     },
     {
       "category": "Look and Feel",
@@ -297,8 +376,11 @@
       "desc": "Displays the UI in dark mode.",
       "url": "https://modrinth.com/resourcepack/default-dark-mode",
       "gamepath": "resourcepacks",
-      "images": ["https://cdn.modrinth.com/data/6SLU7tS5/images/41c6f1fb1ede36c41c8497893b93b099dcb630b5_350.webp"],
-      "download_url": "https://drive.google.com/uc?export=download&id=1Mnv-AQvz_iF-pO96bnJYLwbmZZA25-s6"
+      "images": [
+        "https://cdn.modrinth.com/data/6SLU7tS5/images/41c6f1fb1ede36c41c8497893b93b099dcb630b5_350.webp"
+      ],
+      "download_url": "https://drive.google.com/uc?export=download&id=1Mnv-AQvz_iF-pO96bnJYLwbmZZA25-s6",
+      "hash": "7DFF817B040D9942CBBE3228714075881736337E20713555ADCA62F546077741"
     },
     {
       "category": "Look and Feel",
@@ -310,7 +392,8 @@
       "images": [
         "https://cdn.modrinth.com/data/UVtY3ZAC/images/db91fc869a83a648ba2db9c5138ca3c2f5d9d800.png"
       ],
-      "download_url": "https://drive.google.com/uc?export=download&id=1Nm18KGJKs_kb8P89lRHZYtsq9Zj1uZjF"
+      "download_url": "https://drive.google.com/uc?export=download&id=1Nm18KGJKs_kb8P89lRHZYtsq9Zj1uZjF",
+      "hash": "2203F677756894C4AA48A4C496A972F04EDE2E935734D19C989F7928B65CDA59"
     },
     {
       "category": "Look and Feel",
@@ -322,7 +405,8 @@
       "images": [
         "https://cdn.modrinth.com/data/jkvjEM8B/images/972059553bde2a0061fde9e18160555c757eb518.png"
       ],
-      "download_url": "https://drive.google.com/uc?export=download&id=1zpn_O8MWumAGxnlv3rdI3oQutM60Yqok"
+      "download_url": "https://drive.google.com/uc?export=download&id=1zpn_O8MWumAGxnlv3rdI3oQutM60Yqok",
+      "hash": "6AC73448988AEBAC7BF33927B6AE90B4FD98F583E5A5B399E12541302A33C912"
     },
     {
       "category": "Look and Feel",
@@ -334,7 +418,8 @@
       "images": [
         "https://cdn.modrinth.com/data/W8M9bTQD/images/b30ed38a97c6620ba6a5b2705bbc98fec31b0b84.png"
       ],
-      "download_url": "https://drive.google.com/uc?export=download&id=14pBurZxOPtWhH4VhD6Qh2yLTiDbXpo8-"
+      "download_url": "https://drive.google.com/uc?export=download&id=14pBurZxOPtWhH4VhD6Qh2yLTiDbXpo8-",
+      "hash": "99D874AEC3CADAA6B49FDD58F35AA678AF688CA7E25C3875B8540BD91767FEAF"
     },
     {
       "category": "Look and Feel",
@@ -344,7 +429,8 @@
       "url": "https://modrinth.com/mod/immersivethunder",
       "gamepath": "mods",
       "images": [],
-      "download_url": "https://drive.google.com/uc?export=download&id=1U_keV4O3s22zacB_fIvVB_o2lZLk04ol"
+      "download_url": "https://drive.google.com/uc?export=download&id=1U_keV4O3s22zacB_fIvVB_o2lZLk04ol",
+      "hash": "21F0C941874AF62ADB22D1F33B3D63DA0FCC2E84FC2B5B9E8CC1145582EBEE24"
     },
     {
       "category": "Look and Feel",
@@ -356,7 +442,8 @@
       "images": [
         "https://cdn.modrinth.com/data/K0k9G0ui/images/9063a033bb7a15a9c99906465f908ad37675d071.jpeg"
       ],
-      "download_url": "https://drive.google.com/uc?export=download&id=1qNV4OoD7H-qer0L4ETIxvmtlZO5HA3n8"
+      "download_url": "https://drive.google.com/uc?export=download&id=1qNV4OoD7H-qer0L4ETIxvmtlZO5HA3n8",
+      "hash": "5212021608A8B9CDBFF59CF384FDF804B86C1020AD9E3BBB52E0071943EC7351"
     },
     {
       "category": "Look and Feel",
@@ -366,7 +453,8 @@
       "url": "https://www.curseforge.com/minecraft/mc-mods/inventory-sorting",
       "gamepath": "mods",
       "images": [],
-      "download_url": "https://drive.google.com/uc?export=download&id=1GEoHVhiSXT20o5zd5JGc3aJ01U0ZJtYc"
+      "download_url": "https://drive.google.com/uc?export=download&id=1GEoHVhiSXT20o5zd5JGc3aJ01U0ZJtYc",
+      "hash": "C332B838FA28D5CD9517A800538EB4355837D92406580B0C5A27C34E4675E491"
     },
     {
       "category": "Look and Feel",
@@ -376,29 +464,8 @@
       "url": "https://modrinth.com/datapack/leash-villager",
       "gamepath": "mods",
       "images": [],
-      "download_url": "https://drive.google.com/uc?export=download&id=1KxErxFenD5k0oYWYXLhHItg918HJQJ10"
-    },
-    {
-      "category": "Look and Feel",
-      "tag": "optional",
-      "name": "Mod Menu",
-      "desc": "Adds a mod menu to view the list of mods you have installed.",
-      "url": "https://modrinth.com/mod/modmenu",
-      "gamepath": "mods",
-      "images": [],
-      "download_url": "https://drive.google.com/uc?export=download&id=1NjFi3DN2g2TGUl6BXeU9S9U-szPzvMZx"
-    },
-    {
-      "category": "Look and Feel",
-      "tag": "optional",
-      "name": "Only Hammers",
-      "desc": "Adds various type of hammers, that mine a 3x3 area or 1 block while sneaked.",
-      "url": "https://modrinth.com/mod/only-hammers",
-      "gamepath": "mods",
-      "images": [
-        "https://media.forgecdn.net/attachments/1176/914/2025-05-03_20-34-14-png.png"
-      ],
-      "download_url": "https://drive.google.com/uc?export=download&id=1uLF-cwppqQT0jNypiVAziuv1MjY7WreI"
+      "download_url": "https://drive.google.com/uc?export=download&id=1KxErxFenD5k0oYWYXLhHItg918HJQJ10",
+      "hash": "81D93FA00565F3ED31409269AE41E11505BAFD10CFD89F63CA89FEDE8B4A8C24"
     },
     {
       "category": "Look and Feel",
@@ -410,19 +477,8 @@
       "images": [
         "https://cdn.modrinth.com/data/B1CcCd9h/images/ae28225b35bd567be953dc90c13439c80f1637c9.gif"
       ],
-      "download_url": "https://drive.google.com/uc?export=download&id=1ow_20h1iJU--AVyLODArqsRqK7jhIMj3"
-    },
-    {
-      "category": "Look and Feel",
-      "tag": "optional",
-      "name": "Portfolio",
-      "desc": "Adds in a large catalogue of 80+ paintings to the game!",
-      "url": "https://modrinth.com/datapack/portfolio",
-      "gamepath": "mods",
-      "images": [
-        "https://cdn.modrinth.com/data/2k6aLirX/images/8d8235c826cedce92d60fa755e9d67a438563cce_350.webp"
-      ],
-      "download_url": "https://drive.google.com/uc?export=download&id=1LUx6WNLd4NXtnrKDa47_MGOkoefzJM0e"
+      "download_url": "https://drive.google.com/uc?export=download&id=1ow_20h1iJU--AVyLODArqsRqK7jhIMj3",
+      "hash": "5FB9F4170080462912FCD8699DF03F9569075E460DACB085B33A660A5B42398E"
     },
     {
       "category": "Look and Feel",
@@ -432,7 +488,8 @@
       "url": "https://modrinth.com/mod/presence-footsteps",
       "gamepath": "mods",
       "images": [],
-      "download_url": "https://drive.google.com/uc?export=download&id=1iJPiWFqdBmrcR1cVMyomhfQE5waCDchd"
+      "download_url": "https://drive.google.com/uc?export=download&id=1iJPiWFqdBmrcR1cVMyomhfQE5waCDchd",
+      "hash": "BAB061F211CCFA6141B713165C4FAAF70BA9920C2AC4C2BDDD3F02696FDB41D8"
     },
     {
       "category": "Look and Feel",
@@ -441,8 +498,11 @@
       "desc": "Expertly edit your books with rich formatting options, page utilities and more!",
       "url": "https://modrinth.com/mod/scribble",
       "gamepath": "mods",
-      "images": ["https://cdn.modrinth.com/data/yXAvIk0x/images/af8166c5f05246bd7ab026c3b7e7f08037156f9e_350.webp"],
-      "download_url": "https://drive.google.com/uc?export=download&id=1Y1zsouYZ-OZnkH4zdrCQGP01ixVwp6IC"
+      "images": [
+        "https://cdn.modrinth.com/data/yXAvIk0x/images/af8166c5f05246bd7ab026c3b7e7f08037156f9e_350.webp"
+      ],
+      "download_url": "https://drive.google.com/uc?export=download&id=1Y1zsouYZ-OZnkH4zdrCQGP01ixVwp6IC",
+      "hash": "1B99C1F487E04F8538E77253287288E52A32AEF232F56F0F761E0BFA5449A832"
     },
     {
       "category": "Look and Feel",
@@ -452,7 +512,8 @@
       "url": "https://modrinth.com/resourcepack/slightly-improved-font",
       "gamepath": "resourcepacks",
       "images": [],
-      "download_url": "https://drive.google.com/uc?export=download&id=1UNgGmI8fCQ8plEk-jKngU3W1yCsQaRRd"
+      "download_url": "https://drive.google.com/uc?export=download&id=1UNgGmI8fCQ8plEk-jKngU3W1yCsQaRRd",
+      "hash": "B991537DD86F7DEE818D8D059B8BEB21D17D606AE797865E0C71B8CC9918C1DE"
     },
     {
       "category": "Look and Feel",
@@ -462,7 +523,8 @@
       "url": "https://modrinth.com/mod/sound-physics-remastered",
       "gamepath": "mods",
       "images": [],
-      "download_url": "https://drive.google.com/uc?export=download&id=1475tku2i_TbPOD3yWU5lQQ8Facz1ipIO"
+      "download_url": "https://drive.google.com/uc?export=download&id=1475tku2i_TbPOD3yWU5lQQ8Facz1ipIO",
+      "hash": "7486014D857A4ADB50C8B6C636A03514D9354FC04ED2C2F4B92672856AB0D804"
     },
     {
       "category": "Look and Feel",
@@ -474,19 +536,8 @@
       "images": [
         "https://cdn.modrinth.com/data/kpLMzT6T/images/bf6fb59a556e51e76b095b8512c63cb1942faf5c.gif"
       ],
-      "download_url": "https://drive.google.com/uc?export=download&id=1AOtKlQO81Isi9K12xmsiL7-I9ZlxBwrT"
-    },
-    {
-      "category": "Look and Feel",
-      "tag": "optional",
-      "name": "Xaero's Minimap",
-      "desc": "Displays a map of the nearby world terrain, players, mobs, entities in the corner of your screen and let's you set visual Waypoints.",
-      "url": "https://modrinth.com/mod/xaeros-minimap",
-      "gamepath": "mods",
-      "images": [
-        "https://i0.hdslb.com/bfs/article/e4b9e6cb00b32517d9cff866afa60ffe3ee3f00f.png@1192w.avif"
-      ],
-      "download_url": "https://drive.google.com/uc?export=download&id=13ycUFWVK-5soKVd7UWrVM6VJ6zyJB3NB"
+      "download_url": "https://drive.google.com/uc?export=download&id=1AOtKlQO81Isi9K12xmsiL7-I9ZlxBwrT",
+      "hash": "8E46AEB42B95CDC20B633BF09ED70A9D2FFDE09B268BDBDA666A01B0A722F0DC"
     },
     {
       "category": "Look and Feel",
@@ -498,17 +549,19 @@
       "images": [
         "https://raw.githubusercontent.com/isXander/Zoomify/1.19/screenshots/zoom-example.gif"
       ],
-      "download_url": "https://drive.google.com/uc?export=download&id=1eTOJjWwmhq5nF-IeSlOghFUBQSxPIT2B"
+      "download_url": "https://drive.google.com/uc?export=download&id=1eTOJjWwmhq5nF-IeSlOghFUBQSxPIT2B",
+      "hash": "546CFCF48DF883F48228FA12ABFB508AF22321CEFB60EFB2E2F4A1CCDB24AD86"
     },
     {
       "category": "Shaders",
-      "tag": "base",
+      "tag": "optional",
       "name": "Iris Shader",
       "desc": "Open source shaders mod with high mod compatibility.",
       "url": "https://www.curseforge.com/minecraft/mc-mods/irisshaders",
       "gamepath": "mods",
       "images": [],
-      "download_url": "https://drive.google.com/uc?export=download&id=1B-0Zek7uBqCql5SNu4hTXG0pPF7KJvM0"
+      "download_url": "https://drive.google.com/uc?export=download&id=1B-0Zek7uBqCql5SNu4hTXG0pPF7KJvM0",
+      "hash": "0E6BD470311CC938B992E9065E0F94A3F603B68B5DFCDE25102C64B8733B69BD"
     },
     {
       "category": "Shaders",
@@ -520,7 +573,8 @@
       "images": [
         "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fshaderpacks.b-cdn.net%2Fwp-content%2Fuploads%2F2022%2F06%2F2022-06-22_10.21.40.webp&f=1&ipt=48a8db3d2610368b83faba5f83345a38fe445891da4c0273026b76fbde9b753b"
       ],
-      "download_url": "https://drive.google.com/uc?export=download&id=1m72_YAtiCj-7iV4OldZHprU7Uz3m6mqX"
+      "download_url": "https://drive.google.com/uc?export=download&id=1m72_YAtiCj-7iV4OldZHprU7Uz3m6mqX",
+      "hash": "F4925044D6975225296CB9CB84B3EE9388BC00D3AACCE066EEE92BC427CA66CF"
     },
     {
       "category": "Shaders",
@@ -532,7 +586,8 @@
       "images": [
         "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.deltiasgaming.com%2F2025%2F04%2FComplimentary-Unbound-1536x864.jpg&f=1&ipt=facdadd3979b66d1dfa798303d6895d7a8cf3516146bd1b317005daab43e0788"
       ],
-      "download_url": "https://drive.google.com/uc?export=download&id=1nKmVSmErgLIMEpHNza9H8uZmF0ucgWdk"
+      "download_url": "https://drive.google.com/uc?export=download&id=1nKmVSmErgLIMEpHNza9H8uZmF0ucgWdk",
+      "hash": "61D133B24B6A92E46A3D7DF791BB2FF163BBBA10EED59DF979B9BD727C24FBAF"
     },
     {
       "category": "Shaders",
@@ -544,7 +599,8 @@
       "images": [
         "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.forgecdn.net%2Fattachments%2F1264%2F5%2Fp3-webp.webp&f=1&ipt=cb18bcda78035f3ad9815cfc02be9ed04c443ba8edcef2326ce8bfa117dfed27"
       ],
-      "download_url": "https://drive.google.com/uc?export=download&id=15tb6gWznWS4q0r6HpurG75ehTRzxCfvB"
-    }    
+      "download_url": "https://drive.google.com/uc?export=download&id=15tb6gWznWS4q0r6HpurG75ehTRzxCfvB",
+      "hash": "A7134A10138F6E5FE523DAFA23BD266BA2E53621AC65A5E23294FE9A125B9D73"
+    }
   ]
 }

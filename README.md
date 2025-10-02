@@ -147,7 +147,7 @@ It's **highly advised** to include all in your game files.
 <br><br>
 
 ## Future Updates
-  - [ ] Mod-database will be loaded from this GitHub-Repo instead of being shipped with the precompiled binary
+  - [x] Mod-database will be loaded from this GitHub-Repo instead of being shipped with the precompiled binary
 
   - [ ] Adding Fabric Client as a silent install
 
@@ -157,4 +157,5 @@ It's **highly advised** to include all in your game files.
 
   - [ ] Adding a instruction to build the binary from source
   
+
 
